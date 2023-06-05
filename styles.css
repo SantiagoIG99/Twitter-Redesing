@@ -1,7 +1,19 @@
 html{
     position: relative;
-    /*background-color: #080E24;*/
+    background-color: #080E24;
 }
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  color: #1090F2;
+  width: 48px;
+  height: 38.82px;
+}
+
 
 .dropdown {
     position: relative;
