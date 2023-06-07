@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+
 html{
     position: relative;
-    /* background-color: #080E24; */
+    background-color: #080E24;
 }
 
 header{
@@ -10,8 +13,33 @@ header{
 
 .logo{
   color: #1090F2;
+  width: 0px;
+  height: auto;
+  display: flex;
+}
+
+.logoImg{
   width: 48px;
-  height: 38.82px;
+  height: 37.8px;
+  display: block;
+  margin: 39.5px 69px;
+}
+
+.buscador{
+  margin: 39.5px 69px;
+  display: flex;
+  justify-content: end;
+}
+
+.buscadorTxt{
+  font-family: 'Lato', sans-serif;
+  color: #888888;
+  background-color: rgba(127, 202, 255, 0.08);
+  border-radius: 21px;
+  border: none;
+  font-size: 23px;
+  font-weight: 700;
+  position: absolute;
 }
 
 
